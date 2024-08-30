@@ -1,0 +1,157 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.center {
+    text-align: center;
+}
+img header{
+    border:3px solid white;
+}
+.container {
+    padding: 0px 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #575757;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content > li > a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content > li > a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 0px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #575757;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    background-color: white;
+    display: block;
+    height: 3px;
+    width: px;
+    margin: 5px auto;
+    transition: 0.3s;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu li {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
